@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/blog',
     title: 'FANTASY',
     head: [
         ['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]
