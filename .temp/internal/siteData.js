@@ -4,13 +4,13 @@
 export const siteData = {
   "title": "FANTASY",
   "description": "",
-  "base": "/",
+  "base": "/blog/",
   "headTags": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/assets/img/favicon.ico"
+        "href": "./assets/img/favicon.ico"
       }
     ]
   ],
@@ -19,7 +19,7 @@ export const siteData = {
       "title": "Home",
       "frontmatter": {
         "home": true,
-        "heroImage": "/assets/img/bug.gif",
+        "heroImage": "./assets/img/bug.gif",
         "heroText": null,
         "tagline": "本人学识渊博、经验丰富，代码风骚、效率恐怖，c/c++、java、php无不精通，熟练掌握各种框架，深山苦练20余年，一天只睡4小时，千里之外定位问题，瞬息之间修复上线。身体强壮、健步如飞，可连续编程100小时不休息，讨论技术方案5小时不喝水，上至带项目、出方案，下至盗账号、威胁pm，啥都能干。泡面矿泉水已备好，学校不支持编程已辍学，家人不支持编程已断绝关系，老婆不支持编程已离婚，小孩不支持编程已送孤儿院，备用电源万兆光纤永不断电断网，门口已埋雷无人打扰",
         "actionText": "快速上手 →",
@@ -42,16 +42,16 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-f68c2ab0",
+      "key": "v-ae3fa5e0",
       "path": "/",
-      "lastUpdated": "11/22/2020, 9:52:17 PM"
+      "lastUpdated": "11/23/2020, 12:27:27 AM"
     },
     {
       "title": "以及标签",
       "frontmatter": {},
       "regularPath": "/java.html",
       "relativePath": "java.md",
-      "key": "v-32aa925b",
+      "key": "v-78d04af3",
       "path": "/java.html",
       "headers": [
         {
@@ -59,11 +59,12 @@ export const siteData = {
           "title": "fantasy",
           "slug": "fantasy"
         }
-      ]
+      ],
+      "lastUpdated": "11/23/2020, 12:27:27 AM"
     }
   ],
   "themeConfig": {
-    "logo": "/assets/img/logo.png",
+    "logo": "./assets/img/logo.png",
     "nav": [
       {
         "text": "前端",
