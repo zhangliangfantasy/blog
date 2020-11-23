@@ -1,0 +1,25 @@
+{
+  "name": "fantasy-blog",
+  "version": "1.0.0",
+  "description": "fantasy-blog",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "deploy": "deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangliangfantasy/blog.git"
+  },
+  "author": "fantasy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangliangfantasy/blog/issues"
+  },
+  "homepage": "https://github.com/zhangliangfantasy/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "dependencies": {}
+}
