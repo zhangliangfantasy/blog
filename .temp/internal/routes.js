@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\github\\blog\\node_modules\\_@vuepress_core@1.7.1@@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "D:\\gitlab\\blog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-f68c2ab0",
+    name: "v-ae3fa5e0",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f68c2ab0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ae3fa5e0").then(next)
     },
   },
   {
@@ -21,11 +21,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-32aa925b",
+    name: "v-78d04af3",
     path: "/java.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-32aa925b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-78d04af3").then(next)
     },
   },
   {
