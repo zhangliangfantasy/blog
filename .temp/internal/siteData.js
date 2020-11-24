@@ -16,6 +16,60 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "以及标签",
+      "frontmatter": {},
+      "regularPath": "/java.html",
+      "relativePath": "java.md",
+      "key": "v-77ba321e",
+      "path": "/java.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "fantasy",
+          "slug": "fantasy"
+        }
+      ],
+      "lastUpdated": "11/24/2020, 1:09:57 AM"
+    },
+    {
+      "title": "javascript",
+      "frontmatter": {},
+      "regularPath": "/front-end/javascript.html",
+      "relativePath": "front-end/javascript.md",
+      "key": "v-62977ec4",
+      "path": "/front-end/javascript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue",
+          "slug": "vue"
+        }
+      ]
+    },
+    {
+      "title": "javascript",
+      "frontmatter": {},
+      "regularPath": "/javascript.html",
+      "relativePath": "javascript.md",
+      "key": "v-3206d54a",
+      "path": "/javascript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue",
+          "slug": "vue"
+        }
+      ]
+    },
+    {
+      "title": "sql",
+      "frontmatter": {},
+      "regularPath": "/sql.html",
+      "relativePath": "sql.md",
+      "key": "v-44d4a3c9",
+      "path": "/sql.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -42,25 +96,9 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-ae3fa5e0",
+      "key": "v-e8cc1a5c",
       "path": "/",
-      "lastUpdated": "11/23/2020, 12:27:27 AM"
-    },
-    {
-      "title": "以及标签",
-      "frontmatter": {},
-      "regularPath": "/java.html",
-      "relativePath": "java.md",
-      "key": "v-78d04af3",
-      "path": "/java.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "fantasy",
-          "slug": "fantasy"
-        }
-      ],
-      "lastUpdated": "11/23/2020, 12:27:27 AM"
+      "lastUpdated": "11/24/2020, 1:09:57 AM"
     }
   ],
   "themeConfig": {

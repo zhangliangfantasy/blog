@@ -4,29 +4,53 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\gitlab\\blog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "D:\\Fantasy\\github\\blog\\node_modules\\_@vuepress_core@1.7.1@@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-ae3fa5e0",
+    name: "v-77ba321e",
+    path: "/java.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-77ba321e").then(next)
+    },
+  },
+  {
+    name: "v-62977ec4",
+    path: "/front-end/javascript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-62977ec4").then(next)
+    },
+  },
+  {
+    name: "v-3206d54a",
+    path: "/javascript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3206d54a").then(next)
+    },
+  },
+  {
+    name: "v-44d4a3c9",
+    path: "/sql.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-44d4a3c9").then(next)
+    },
+  },
+  {
+    name: "v-e8cc1a5c",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ae3fa5e0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e8cc1a5c").then(next)
     },
   },
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-78d04af3",
-    path: "/java.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-78d04af3").then(next)
-    },
   },
   {
     path: '*',

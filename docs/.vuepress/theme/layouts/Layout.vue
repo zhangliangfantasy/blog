@@ -38,7 +38,7 @@
       </template>
       <template #bottom>
         <slot name="page-bottom" />
-        <Vssue class="theme-default-content content__default" :options="{ locale: 'zh' }"/>
+        <Vssue class="theme-default-content content__default" :key="title" :title="title" :options="{ locale: 'zh' }"/>
       </template>
     </Page>
   </div>
@@ -60,8 +60,12 @@ export default {
   },
   data () {
     return {
+      title: '',
       isSidebarOpen: false
     }
+  },
+  watch: {
+    '$route': 'getPath'
   },
   computed: {
     shouldShowNavbar () {
@@ -114,6 +118,15 @@ export default {
     })
   },
   methods: {
+    getPath () {
+      this.title = this.removeUseless(this.$route.path);
+    },
+    removeUseless (str) {
+      while(str.includes("/")) {
+        str = str.replace("/", "");
+      }
+      return str;
+    },
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
       this.$emit('toggle-sidebar', this.isSidebarOpen)
