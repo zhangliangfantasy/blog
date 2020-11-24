@@ -3,4 +3,4 @@
 3. 项目启动：npm run docs:dev
 4. 项目打包：npm run docs:build
 5. 自动化部署：npm run deploy（项目的自动化部署需要使用ssh）
-基于VuePress构建的blog，访问路径https://zhangliangfantasy.github.io/blog/
+6. 基于VuePress构建的blog，访问路径https://zhangliangfantasy.github.io/blog/
