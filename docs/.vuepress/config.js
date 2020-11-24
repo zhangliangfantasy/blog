@@ -31,7 +31,7 @@ module.exports = {
             owner: 'zhangliangfantasy',
             repo: 'blog',
             clientId: '1dcb663a9949ccbaea6c',
-            clientSecret: '09771919ffc10444e62f681f6365b85899093ed1',
+            clientSecret: 'd338e48c17a2dfd3fc64150025e872f52a3eaca1',
             autoCreateIssue: true
         },
     },

@@ -1,1 +1,1 @@
-export { default } from "D:\\Fantasy\\github\\blog\\node_modules\\_@vssue_vuepress-plugin-vssue@1.4.6@@vssue\\vuepress-plugin-vssue\\lib\\enhanceApp.js"
+export { default } from "D:\\github\\blog\\node_modules\\_@vssue_vuepress-plugin-vssue@1.4.6@@vssue\\vuepress-plugin-vssue\\lib\\enhanceApp.js"
