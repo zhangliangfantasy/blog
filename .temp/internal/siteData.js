@@ -63,22 +63,6 @@ export const siteData = {
       "lastUpdated": "11/24/2020, 10:56:15 PM"
     },
     {
-      "title": "javascript",
-      "frontmatter": {},
-      "regularPath": "/javascript.html",
-      "relativePath": "javascript.md",
-      "key": "v-0a9c71c5",
-      "path": "/javascript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "vue",
-          "slug": "vue"
-        }
-      ],
-      "lastUpdated": "11/24/2020, 10:56:15 PM"
-    },
-    {
       "title": "以及标签",
       "frontmatter": {},
       "regularPath": "/java.html",
@@ -95,6 +79,22 @@ export const siteData = {
       "lastUpdated": "11/24/2020, 1:09:57 AM"
     },
     {
+      "title": "javascript",
+      "frontmatter": {},
+      "regularPath": "/javascript.html",
+      "relativePath": "javascript.md",
+      "key": "v-0a9c71c5",
+      "path": "/javascript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue",
+          "slug": "vue"
+        }
+      ],
+      "lastUpdated": "11/24/2020, 10:56:15 PM"
+    },
+    {
       "title": "sql",
       "frontmatter": {},
       "regularPath": "/sql.html",
@@ -102,6 +102,36 @@ export const siteData = {
       "key": "v-114421b3",
       "path": "/sql.html",
       "lastUpdated": "11/24/2020, 10:56:15 PM"
+    },
+    {
+      "title": "vuepress",
+      "frontmatter": {},
+      "regularPath": "/vuepress.html",
+      "relativePath": "vuepress.md",
+      "key": "v-9a0e1c36",
+      "path": "/vuepress.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. SEO",
+          "slug": "_1-seo"
+        },
+        {
+          "level": 2,
+          "title": "2. 自动化部署",
+          "slug": "_2-自动化部署"
+        },
+        {
+          "level": 3,
+          "title": "1.  将blog自动化部署到github的步骤",
+          "slug": "_1-将blog自动化部署到github的步骤"
+        },
+        {
+          "level": 2,
+          "title": "3. vssue评论",
+          "slug": "_3-vssue评论"
+        }
+      ]
     }
   ],
   "themeConfig": {
@@ -123,6 +153,10 @@ export const siteData = {
             "link": "/front-end/angular"
           }
         ]
+      },
+      {
+        "text": "vuepress",
+        "link": "/vuepress"
       },
       {
         "text": "JAVA",

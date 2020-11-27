@@ -4,7 +4,8 @@
 export default {
   "v-f68c2ab0": () => import("D:\\github\\blog\\docs\\README.md"),
   "v-d1b877f0": () => import("D:\\github\\blog\\docs\\front-end\\javascript.md"),
-  "v-0a9c71c5": () => import("D:\\github\\blog\\docs\\javascript.md"),
   "v-32aa925b": () => import("D:\\github\\blog\\docs\\java.md"),
-  "v-114421b3": () => import("D:\\github\\blog\\docs\\sql.md") 
+  "v-0a9c71c5": () => import("D:\\github\\blog\\docs\\javascript.md"),
+  "v-114421b3": () => import("D:\\github\\blog\\docs\\sql.md"),
+  "v-9a0e1c36": () => import("D:\\github\\blog\\docs\\vuepress.md") 
 }

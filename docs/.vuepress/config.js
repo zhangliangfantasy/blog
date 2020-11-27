@@ -15,6 +15,7 @@ module.exports = {
                     { text: 'Angular', link: '/front-end/angular' }
                 ]
             },
+            { text: 'vuepress', link: '/vuepress'},
             { text: 'JAVA', link: '/java' },
             { text: '数据库', link: '/sql' },
             { text: '计算机基础', link: '/computer-basic' }

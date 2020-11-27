@@ -29,14 +29,6 @@ export const routes = [
     },
   },
   {
-    name: "v-0a9c71c5",
-    path: "/javascript.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0a9c71c5").then(next)
-    },
-  },
-  {
     name: "v-32aa925b",
     path: "/java.html",
     component: GlobalLayout,
@@ -45,11 +37,27 @@ export const routes = [
     },
   },
   {
+    name: "v-0a9c71c5",
+    path: "/javascript.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0a9c71c5").then(next)
+    },
+  },
+  {
     name: "v-114421b3",
     path: "/sql.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-114421b3").then(next)
+    },
+  },
+  {
+    name: "v-9a0e1c36",
+    path: "/vuepress.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9a0e1c36").then(next)
     },
   },
   {
